@@ -16,7 +16,10 @@ public class ParameterPassing {
         int val = sc.nextInt();
         ParameterPassing mp = new ParameterPassing();
         mp.update(arr, index, val);
-        System.out.println(arr[index]);
+        for(int x : arr)
+        {
+            System.out.print(x+ " ");
+        }
         sc.close();
     }
     
